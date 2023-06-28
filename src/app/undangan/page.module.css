@@ -1,0 +1,338 @@
+.container {
+  width: 100vw;
+  background: linear-gradient(180deg, #fff 0%, #90be41 100%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 1100px;
+  /* background-color: aqua; */
+  padding: 40px 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+}
+
+.logos img {
+  width: 90%;
+  height: auto;
+}
+
+.opening {
+  margin: 177px 0 90px 0;
+  width: 100%;
+  height: 218px;
+  background-color: #f2f3e8;
+  border-radius: 16px;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.opening p {
+  font-size: 16px;
+  text-align: center;
+  max-width: 800px;
+}
+
+.opening p:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+.date {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.date svg:nth-child(3) {
+  margin-left: 15px;
+}
+
+.maps {
+  position: relative;
+  width: 100%;
+  height: 780px;
+}
+
+.map {
+  /* position: absolute; */
+  width: 100%;
+  height: 700px;
+  margin-top: 50px;
+}
+
+.mapLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #90be41;
+  border-radius: 20px;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+
+.mapLink svg {
+  height: 35px;
+}
+
+.mapLink p {
+  color: #fff;
+  font-weight: 500;
+}
+
+.loading {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tables {
+  background-color: #f2f3e8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-x: scroll;
+  margin-bottom: 50px;
+}
+
+.saHead {
+  margin-bottom: 25px;
+}
+
+.saHead h2 {
+  font-size: 20px;
+  color: #3d3d3c;
+}
+
+.lines {
+  width: 420px;
+  height: 2px;
+  background: #38ac49;
+  margin-top: 5px;
+}
+
+.speker {
+	width: 100%;
+	height: 1000px;
+	background-image: url('/bg-footer.svg');
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding: 70px 10px;
+}
+
+.spWrap {
+	width: 90%;
+	/* background: #f2f3e8; */
+}
+
+.headS {
+	margin-bottom: 30px;
+}
+
+.headS h2 {
+	font-size: 20px;
+	color: #fff;
+}
+
+.hairlines {
+	width: 120px;
+	height: 2px;
+	background-color: #38ac49;
+	margin-top: 5px;
+}
+
+.spItems {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	row-gap: 20px;
+}
+
+.item {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.fotoW {
+	position: relative;
+	overflow: hidden;
+	width: 116px;
+	height: 116px;
+	border-radius: 100%;
+	background: #fff;
+	/* flex: 1; */
+}
+
+.fotoW img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* .desc {
+	flex: 4.5;
+} */
+
+.desc h2 {
+	font-size: 16px;
+	color: #fff;
+}
+
+.desc h3 {
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	color: #fff;
+	margin: 5px 0;
+}
+
+.desc p {
+	font-size: 16px;
+	color: #DFF14A;
+	max-width: 400px;
+}
+
+.footer {
+	width: 100%;
+	padding: 10px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+/* @media only screen and (max-width: 1358px) {
+	.foto {
+		flex: 1.2;
+	}
+} */
+
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    width: 95%;
+    padding: 20px 10px;
+  }
+
+  .opening {
+    padding: 10px 5px;
+  }
+
+  .logos img {
+    width: 100%;
+  }
+
+  .fotoW {
+	width: 120px;
+	height: 120px;
+}
+
+.desc {
+	flex: 3;
+}
+}
+
+@media only screen and (max-width: 648px) {
+	.spItems {
+		
+		grid-template-columns: 1fr;
+	}
+
+	.fotoW {
+		width: 80px ;
+		height: 80px ;
+	}
+
+	.desc p, .desc h2, .desc h3 {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+  .loading img {
+    width: 80%;
+  }
+
+  .maps {
+    height: 480px;
+  }
+
+  .map {
+    height: 480px;
+  }
+
+  .date p {
+    font-size: 14px;
+  }
+
+  .mapLink svg {
+	width: 25px;
+  }
+
+  .mapLink {
+	padding: 1px 15px;
+  }
+
+  .date svg {
+    width: 20px;
+  }
+
+  .saHead {
+	margin-top: 60px;
+  }
+
+  .saHead h2 {
+	font-size: 14px;
+  }
+
+  .tables {
+	margin-bottom: 40px;
+  }
+
+  .footer {
+	flex-direction: column;
+	align-items: center;
+  }
+
+  .footer p {
+	font-size: 12px;
+	text-align: center;
+  }
+
+  .footer p:nth-child(1) {
+	display: none;
+  }
+
+  .footer svg {
+	width: 20px;
+  }
+}
+
+@media only screen and (max-width: 581px) {
+  .opening {
+    height: fit-content;
+    padding: 20px 10px;
+    margin: 70px 0 20px 0;
+  }
+
+  .opening p {
+    font-size: 14px;
+  }
+}
