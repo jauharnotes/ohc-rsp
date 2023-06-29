@@ -16,7 +16,7 @@ const Undangan = () => {
     {
       id: "01",
       name: "DR. dr. Sudi Astono, MS",
-      job: "Kemenaker",
+      job: "Kemnaker",
       tema: "Tema: “Kebijakan Penerapan K3 Di Perusahaan”",
       poto: "https://i.ibb.co/k2TLLsZ/Ellipse-1.png",
     },
