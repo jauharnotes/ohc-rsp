@@ -1,12 +1,14 @@
-// "use client";
+"use client";
 import styles from "./page.module.css";
 import Link from "next/link";
-// import { LazyMotion, domAnimation, m } from "framer-motion";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+
+import "animate.css/animate.min.css";
 
 export default function Home() {
   return (
     <main className={styles.wrapper}>
-      <div className={styles.container}>
+      <AnimationOnScroll animateIn="animate__bounceIn" className={styles.container}>
         <div className={styles.launc}>
           <h2>Launching</h2>
         </div>
@@ -84,7 +86,7 @@ export default function Home() {
             <p>Buka Undangan</p>
           </Link>
         </div>
-      </div>
+      </AnimationOnScroll>
     </main>
   );
 }

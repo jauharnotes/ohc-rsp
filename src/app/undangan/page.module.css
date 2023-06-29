@@ -48,6 +48,10 @@
   margin-bottom: 20px;
 }
 
+.opening span {
+  font-weight: bold;
+}
+
 .date {
   display: flex;
   gap: 5px;
@@ -126,65 +130,65 @@
 }
 
 .speker {
-	width: 100%;
-	height: 1000px;
-	background-image: url('/bg-footer.svg');
-	background-size: cover;
+  width: 100%;
+  height: 1000px;
+  background-image: url("/bg-footer.svg");
+  background-size: cover;
 
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	padding: 70px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 70px 10px;
 }
 
 .spWrap {
-	width: 90%;
-	/* background: #f2f3e8; */
+  width: 90%;
+  /* background: #f2f3e8; */
 }
 
 .headS {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .headS h2 {
-	font-size: 20px;
-	color: #fff;
+  font-size: 20px;
+  color: #fff;
 }
 
 .hairlines {
-	width: 120px;
-	height: 2px;
-	background-color: #38ac49;
-	margin-top: 5px;
+  width: 120px;
+  height: 2px;
+  background-color: #38ac49;
+  margin-top: 5px;
 }
 
 .spItems {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	row-gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
 }
 
 .item {
-	display: flex;
-	align-items: center;
-	gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .fotoW {
-	position: relative;
-	overflow: hidden;
-	width: 116px;
-	height: 116px;
-	border-radius: 100%;
-	background: #fff;
-	/* flex: 1; */
+  position: relative;
+  overflow: hidden;
+  width: 116px;
+  height: 116px;
+  border-radius: 100%;
+  background: #fff;
+  /* flex: 1; */
 }
 
 .fotoW img {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* .desc {
@@ -192,31 +196,31 @@
 } */
 
 .desc h2 {
-	font-size: 16px;
-	color: #fff;
+  font-size: 16px;
+  color: #fff;
 }
 
 .desc h3 {
-	font-size: 16px;
-	font-weight: 400;
-	font-style: italic;
-	color: #fff;
-	margin: 5px 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  color: #fff;
+  margin: 5px 0;
 }
 
 .desc p {
-	font-size: 16px;
-	color: #DFF14A;
-	max-width: 400px;
+  font-size: 16px;
+  color: #dff14a;
+  max-width: 400px;
 }
 
 .footer {
-	width: 100%;
-	padding: 10px;
-	background: #fff;
-	display: flex;
-	justify-content: center;
-	gap: 10px;
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 /* @media only screen and (max-width: 1358px) {
@@ -240,32 +244,37 @@
   }
 
   .fotoW {
-	width: 120px;
-	height: 120px;
-}
+    width: 120px;
+    height: 120px;
+  }
 
-.desc {
-	flex: 3;
-}
+  .desc {
+    flex: 3;
+  }
 }
 
 @media only screen and (max-width: 648px) {
-	.spItems {
-		
-		grid-template-columns: 1fr;
-	}
+  .spItems {
+    grid-template-columns: 1fr;
+  }
 
-	.fotoW {
-		width: 80px ;
-		height: 80px ;
-	}
+  .fotoW {
+    width: 80px;
+    height: 80px;
+  }
 
-	.desc p, .desc h2, .desc h3 {
-		font-size: 14px;
-	}
+  .desc p,
+  .desc h2,
+  .desc h3 {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+  .wrapper {
+    margin-bottom: -70px;
+  }
+
   .loading img {
     width: 80%;
   }
@@ -283,11 +292,11 @@
   }
 
   .mapLink svg {
-	width: 25px;
+    width: 25px;
   }
 
   .mapLink {
-	padding: 1px 15px;
+    padding: 1px 15px;
   }
 
   .date svg {
@@ -295,33 +304,33 @@
   }
 
   .saHead {
-	margin-top: 60px;
+    margin-top: 60px;
   }
 
   .saHead h2 {
-	font-size: 14px;
+    font-size: 14px;
   }
 
   .tables {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
   }
 
   .footer {
-	flex-direction: column;
-	align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .footer p {
-	font-size: 12px;
-	text-align: center;
+    font-size: 12px;
+    text-align: center;
   }
 
   .footer p:nth-child(1) {
-	display: none;
+    display: none;
   }
 
   .footer svg {
-	width: 20px;
+    width: 20px;
   }
 }
 
@@ -333,6 +342,7 @@
   }
 
   .opening p {
-    font-size: 14px;
+    font-size: 13px;
+    line-height: 18px;
   }
 }
