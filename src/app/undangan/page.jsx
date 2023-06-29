@@ -22,7 +22,7 @@ const Undangan = () => {
     },
     {
       id: "02",
-      name: "Binna Novita, ST",
+      name: "Dinna Novita, ST",
       job: "BPJS Ketenagakerjaan",
       tema: "Tema: “Sosilaisasi dan Mekanisme Klaim BPJS Ketenagakerjaan ”",
       poto: "https://i.ibb.co/hcyqbQN/Ellipse-4.png",
@@ -32,7 +32,7 @@ const Undangan = () => {
       name: "Dr. dr. Dwi Soemarko, MS, Sp.OK",
       job: "PERDOKI",
       tema: "Tema: “Peran dan fungsi Dokter Okupasi dalan Pelayanan Kesahatan Kerja Untuk Perusahaan”",
-      poto: "https://i.ibb.co/3S9stjf/Ellipse-2.png",
+      poto: "https://i.ibb.co/72scnRS/dwi.png",
     },
     {
       id: "04",
@@ -45,7 +45,7 @@ const Undangan = () => {
       id: "05",
       name: "Muhammad Jaza",
       job: "SMK3",
-      tema: "Tema: “Tema: “Kepatuhan Perusahaan Terhadap program kesehatan Kerja””",
+      tema: "Tema: “Kepatuhan Perusahaan Terhadap program kesehatan Kerja””",
       poto: "https://i.ibb.co/JkzLMx5/Ellipse-3.png",
     },
   ];
