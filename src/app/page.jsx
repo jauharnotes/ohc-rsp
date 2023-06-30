@@ -61,7 +61,7 @@ export default function Home() {
               fill="white"
             />
           </svg>
-          <h2>Occupational Health Center RS Pelabulan</h2>
+          <h2>Occupational Health Center RS Pelabuhan</h2>
         </div>
         <div className={styles.tema}>
           <p>
