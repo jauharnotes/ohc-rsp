@@ -65,8 +65,7 @@ export default function Home() {
         </div>
         <div className={styles.tema}>
           <p>
-            “Implementasi program kesehatan kerja <br /> untuk produktivitas
-            perusahaan”
+            “Implementasi Program Kesehatan Kerja <br /> Untuk Produktivitas Perusahaan”
           </p>
         </div>
         <div className={styles.btn}>
