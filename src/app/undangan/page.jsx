@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import styles from "./page.module.css";
 import Table from "@/componets/Table";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 import "animate.css/animate.min.css";
 
@@ -66,16 +66,22 @@ const Undangan = () => {
               <img src="/logos.png" alt="logos" />
             </div>
 
-            <AnimationOnScroll animateIn="animate__bounceIn" className={styles.opening}>
-              <p>Dengan Hormat,</p>
+            <AnimationOnScroll
+              animateIn="animate__bounceIn"
+              className={styles.opening}
+            >
+              <p>Dengan hormat,</p>
               <p>
-                Kami PT. Rumah Sakit Pelabuhan mengundang Bapak dan ibu dapat
-                menghadiri acara Launcing Occupational Helth Center RS Pelabuhan
-                pada:
+                PT. RS Pelabuhan mengundang Bapak/Ibu untuk
+                menghadiri acara Launching OHC-RSP ( Occupational Health Center
+                RS Pelabuhan) pada :
               </p>
             </AnimationOnScroll>
 
-            <AnimationOnScroll animateIn="animate__bounceIn" className={styles.date}>
+            <AnimationOnScroll
+              animateIn="animate__bounceIn"
+              className={styles.date}
+            >
               <svg
                 width="32"
                 height="32"
@@ -114,11 +120,16 @@ const Undangan = () => {
               ></iframe>
             </AnimationOnScroll>
 
-            <AnimationOnScroll animateIn="animate__fadeInDown" className={styles.opening} id="location">
+            <AnimationOnScroll
+              animateIn="animate__fadeInDown"
+              className={styles.opening}
+              id="location"
+            >
               <p>
                 <span> HARRIS Hotel & Conventions Kelapa Gading</span> <br />{" "}
-                Jl. Boulevard Bar. Raya No.RT.13, RT.13/RW.18, Klp. Gading Tim.,
-                Kec. Klp. Gading, Jkt Utara, Daerah Khusus Ibukota Jakarta 14240
+                Jl. Boulevard Barat. Raya No.RT.13, RT.13/RW.18, Klp. Gading
+                Timur., Kec. Klp. Gading, Jkt Utara, Daerah Khusus Ibukota
+                Jakarta 14240
               </p>
               <div>
                 <a
@@ -142,20 +153,29 @@ const Undangan = () => {
               </div>
             </AnimationOnScroll>
 
-            <AnimationOnScroll animateIn="animate__fadeInDown" className={styles.saHead}>
-              <h2>Dengan susunan acara sebagai berikut:</h2>
+            <AnimationOnScroll
+              animateIn="animate__fadeInDown"
+              className={styles.saHead}
+            >
+              <h2>Rundown acara:</h2>
               <div className={styles.lines}></div>
             </AnimationOnScroll>
 
-            <AnimationOnScroll animateIn="animate__fadeIn" className={styles.tables}>
+            <AnimationOnScroll
+              animateIn="animate__fadeIn"
+              className={styles.tables}
+            >
               <Table />
             </AnimationOnScroll>
           </div>
 
-          <AnimationOnScroll animateIn="animate__fadeInUp" className={styles.speker}>
+          <AnimationOnScroll
+            animateIn="animate__fadeInUp"
+            className={styles.speker}
+          >
             <div className={styles.spWrap}>
               <div className={styles.headS}>
-                <h2>Pembicara</h2>
+                <h2>Narasumber</h2>
                 <div className={styles.hairlines}></div>
               </div>
 
@@ -195,9 +215,15 @@ const Undangan = () => {
                 fill="#3D3D3C"
               />
             </svg>
-            <p>
+            <p className={styles.desck}>
               Afrianti Handayani +62 857-2626-9696 - Vega Setyo ningrum +62
               812-1355-5360
+            </p>
+            <p className={styles.mobile}>
+              Afrianti Handayani +62 857-2626-9696
+            </p>
+            <p className={styles.mobile}>
+              Vega Setyo ningrum +62 812-1355-5360
             </p>
           </footer>
         </main>

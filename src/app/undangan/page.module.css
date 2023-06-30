@@ -223,6 +223,9 @@
   gap: 10px;
 }
 
+.mobile {
+  display: none;
+}
 /* @media only screen and (max-width: 1358px) {
 	.foto {
 		flex: 1.2;
@@ -331,6 +334,19 @@
 
   .footer svg {
     width: 20px;
+  }
+
+  .desck {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lines {
+    width: 120px;
   }
 }
 
