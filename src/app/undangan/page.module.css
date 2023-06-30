@@ -206,6 +206,7 @@
   font-style: italic;
   color: #fff;
   margin: 5px 0;
+  max-width: 300px;
 }
 
 .desc p {
@@ -347,6 +348,14 @@
 
   .lines {
     width: 120px;
+  }
+
+  .desc h3 {
+    font-size: 12px;
+  }
+
+  .speker {
+    padding-bottom: 15px;
   }
 }
 

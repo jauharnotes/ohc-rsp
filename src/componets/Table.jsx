@@ -116,7 +116,7 @@ const Table = () => {
 
           <tr className="bg_grey">
             <td>10.03 - 10.23</td>
-            <td>Narasumber 1 : “Kebijakan Penerapan K# Di Perusahaan”</td>
+            <td>Narasumber 1 : “Kebijakan Penerapan K3 Di Perusahaan”</td>
             <td>Dr.dr. Sudi Astono, MS (KEMENAKER)</td>
           </tr>
 
