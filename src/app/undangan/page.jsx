@@ -15,9 +15,9 @@ const Undangan = () => {
   const pembicara = [
     {
       id: "01",
-      name: "DR. dr. Sudi Astono, MS",
+      name: "Dr. dr. Sudi Astono, MS",
       job: "pengawas ketenaga kerjaan Ahli madya dan koordinator pemeriksaan Norma K3 ,KEMNAKER RI",
-      tema: "Tema: “Kebijakan Penerapan K3 Di Perusahaan”",
+      tema: "Tema: “Kebijakan Penerapan K3 di Perusahaan”",
       poto: "https://i.ibb.co/k2TLLsZ/Ellipse-1.png",
     },
     {
@@ -73,7 +73,7 @@ const Undangan = () => {
               <p>Dengan hormat,</p>
               <p>
                 PT. RS Pelabuhan mengundang Bapak/Ibu untuk
-                menghadiri acara Launching OHC-RSP <br /> ( Occupational Health Center
+                menghadiri acara Launching OHC-RSP <br /> (Occupational Health Center
                 RS Pelabuhan) <br /> pada :
               </p>
             </AnimationOnScroll>
