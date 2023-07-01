@@ -79,7 +79,7 @@ const Undangan = () => {
             </AnimationOnScroll>
 
             <AnimationOnScroll
-              animateIn="animate__bounceIn"
+              animateIn="animate__fadeInTopRight"
               className={styles.date}
             >
               <svg
@@ -162,7 +162,7 @@ const Undangan = () => {
             </AnimationOnScroll>
 
             <AnimationOnScroll
-              animateIn="animate__fadeIn"
+              animateIn="animate__fadeInTopLeft"
               className={styles.tables}
             >
               <Table />
