@@ -37,7 +37,7 @@ const Undangan = () => {
     {
       id: "04",
       name: "dr. Iwan Rivai Alam Siahaan Sp.OK",
-      job: "Dr Spesialis Okupasi OHC-RSP",
+      job: "dr Spesialis Okupasi OHC-RSP",
       tema: "Tema: “Program Occupational Health Center PT RS Pelabuhan”",
       poto: "https://i.ibb.co/BGf7Yvr/Ellipse-5.png",
     },
@@ -73,7 +73,7 @@ const Undangan = () => {
               <p>Dengan hormat,</p>
               <p>
                 PT. RS Pelabuhan mengundang Bapak/Ibu untuk
-                menghadiri acara Launching OHC-RSP ( Occupational Health Center
+                menghadiri acara Launching OHC-RSP <br /> ( Occupational Health Center
                 RS Pelabuhan) pada :
               </p>
             </AnimationOnScroll>
@@ -107,7 +107,7 @@ const Undangan = () => {
                   fill="black"
                 />
               </svg>
-              <p>09.00 - 13.00 WIB</p>
+              <p>08.00 - 13.00 WIB</p>
             </AnimationOnScroll>
 
             <AnimationOnScroll animateIn="animate__fadeIn" className="maps">
