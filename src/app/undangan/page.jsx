@@ -182,15 +182,15 @@ const Undangan = () => {
               <div className={styles.spItems}>
                 {pembicara.map((item) => (
                   <div className={styles.item} key={item.id}>
-                    <div className={styles.fotoW}>
+                    <AnimationOnScroll animateIn="animate__fadeInLeft" className={styles.fotoW}>
                       <img src={item.poto} alt="" />
-                    </div>
+                    </AnimationOnScroll>
 
-                    <div className={styles.desc}>
+                    <AnimationOnScroll animateIn="animate__fadeInRight" className={styles.desc}>
                       <h2>{item.name}</h2>
                       <h3>{item.job}</h3>
                       <p>{item.tema}</p>
-                    </div>
+                    </AnimationOnScroll>
                   </div>
                 ))}
               </div>
