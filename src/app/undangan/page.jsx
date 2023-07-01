@@ -74,7 +74,7 @@ const Undangan = () => {
               <p>
                 PT. RS Pelabuhan mengundang Bapak/Ibu untuk
                 menghadiri acara Launching OHC-RSP <br /> ( Occupational Health Center
-                RS Pelabuhan) pada :
+                RS Pelabuhan) <br /> pada :
               </p>
             </AnimationOnScroll>
 
