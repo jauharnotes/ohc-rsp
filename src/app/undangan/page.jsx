@@ -16,7 +16,7 @@ const Undangan = () => {
     {
       id: "01",
       name: "Dr. dr. Sudi Astono, MS",
-      job: "pengawas ketenaga kerjaan Ahli madya dan koordinator pemeriksaan Norma K3 ,KEMNAKER RI",
+      job: "Pengawas Ketenaga Kerjaan Ahli Madya dan Koordinator Pemeriksaan Norma K3 ,KEMNAKER RI",
       tema: "Tema: “Kebijakan Penerapan K3 di Perusahaan”",
       poto: "https://i.ibb.co/k2TLLsZ/Ellipse-1.png",
     },
@@ -31,7 +31,7 @@ const Undangan = () => {
       id: "03",
       name: "Dr. dr. Dwi Soemarko, MS, Sp.OK",
       job: "Ketua Kolegium Kedokteran Okupasi Indonesia",
-      tema: "Tema: “Peran dan fungsi Dokter Okupasi dalan Pelayanan Kesahatan Kerja Untuk Perusahaan”",
+      tema: "Tema: “Peran dan Fungsi Dokter Okupasi dalam Pelayanan Kesahatan Kerja Untuk Perusahaan”",
       poto: "https://i.ibb.co/72scnRS/dwi.png",
     },
     {
@@ -45,7 +45,7 @@ const Undangan = () => {
       id: "05",
       name: "Muhammad Jaza",
       job: "Project Manajer, SMK3",
-      tema: "Tema: “Kepatuhan Perusahaan Terhadap program kesehatan Kerja””",
+      tema: "Tema: “Kepatuhan Perusahaan Terhadap Program Kesehatan Kerja””",
       poto: "https://i.ibb.co/JkzLMx5/Ellipse-3.png",
     },
   ];
