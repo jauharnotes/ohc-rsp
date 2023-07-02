@@ -24,14 +24,14 @@ const Undangan = () => {
       id: "02",
       name: "Dinna Novita, ST",
       job: "Kabid Pelayanan BPJS Ketenagakerjaan Cabang Kelapa Gading",
-      tema: "Tema: “Sosilaisasi dan Mekanisme Klaim BPJS Ketenagakerjaan ”",
+      tema: "Tema: “Sosialisasi dan Mekanisme Klaim BPJS Ketenagakerjaan ”",
       poto: "https://i.ibb.co/hcyqbQN/Ellipse-4.png",
     },
     {
       id: "03",
       name: "Dr. dr. Dwi Soemarko, MS, Sp.OK",
       job: "Ketua Kolegium Kedokteran Okupasi Indonesia",
-      tema: "Tema: “Peran dan Fungsi Dokter Okupasi dalam Pelayanan Kesahatan Kerja Untuk Perusahaan”",
+      tema: "Tema: “Peran dan Fungsi Dokter Okupasi dalam Pelayanan Kesehatan Kerja Untuk Perusahaan”",
       poto: "https://i.ibb.co/72scnRS/dwi.png",
     },
     {
